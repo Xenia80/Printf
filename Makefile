@@ -6,7 +6,10 @@ CFLAGS	=	 -Werror -Wall -Wextra
 
 AR	=	 ar -rcs
 
-SRC		=	$(shell find . -name "*.c")
+SRC		=	 ft_functions.c 	\
+			 ft_itoa.c 			\
+			 ft_printf.c 		\
+			 ft_utoa.c 			\
 
 OBJS	 =	$(SRC:%.c=%.o)
 
